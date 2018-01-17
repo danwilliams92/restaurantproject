@@ -1,0 +1,211 @@
+/* General styles */
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+
+body{
+	color:#fff;
+	background-color:#000;
+	font-size:16px;
+	font-family:arial;
+	
+}
+
+
+.logo{
+	font-family: 'Dancing Script', cursive;
+	font-size:18px;
+	
+}
+.navcontainer{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.nav-items ul{
+	display:flex;
+	flex-direction:row;
+}
+
+.nav-items li{
+	font-size:12px;
+	list-style:none;
+	margin:6px;
+}
+
+a{
+	text-decoration:none;
+	color:#fff;
+}
+
+a.current{
+	color:#ec0b0b;
+}
+
+img{
+	max-width:100%;
+	width:auto;
+	margin-bottom:10px;
+}
+
+.pageheading, .subheading, .textcontent{
+	text-align:center;
+}
+
+.subheading{
+	font-family:'Dancing Script', cursive;
+}
+
+.maincontainer{
+	  position: relative;
+    text-align: center;
+}
+
+.image-content{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-size:14px;
+}
+
+.main-image{
+	opacity:0.4;
+}
+
+.button{
+	font-size:16px;
+	background-color:#000;
+	color:#fff;
+	border:none;
+	margin-top:5px;
+	padding: 10px 15px;
+}
+
+a .button:hover{
+	box-shadow:0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.socialmediabuttons{
+	display:flex;
+	justify-content:center;
+}
+
+.socialmediabuttons i{
+	margin:8px;
+}
+
+.socialmediabuttons a:hover{
+	opacity:0.4;
+}
+
+.contactdetails{
+	display:flex;
+	justify-content:space-between;
+	font-size:12px;
+	margin:10px;
+}
+
+
+
+span{
+	font-family:'Dancing Script', cursive;
+	font-size:20px;
+	text-align:center;
+
+}
+
+/* courses page */
+
+.card{
+	text-align:center;
+	border:1px solid #fff;
+	margin-bottom: 10px;
+	padding:10px;
+}
+
+.buttonalternate{
+	font-size:16px;
+	background-color:#000;
+	color:#fff;
+	border:2px solid #fff;
+	margin-top:10px;
+	padding: 10px 15px;
+}
+
+a .buttonalternate:hover{
+	background-color:#fff;
+	color:#000;
+}
+
+footer{
+	font-size:10px;
+	text-align:center;
+}
+
+footer a:active{
+	color:#ec0b0b;
+}
+
+footer a:hover{
+	color:#ec0b0b;
+}
+
+/* About page */
+
+iframe{
+	max-width:100%;
+	width:auto;
+	margin-bottom: 10px;
+}
+
+/* contact page */
+
+form{
+	border: 2px solid #fff;
+	padding:10px;
+	border-radius:2px;
+	margin-bottom:10px;
+}
+
+input, select, textarea{
+	margin:5px 0px 5px 0px;
+}
+
+input, textarea{
+	width:100%;
+}
+
+select{
+	width:40%;
+}
+
+
+#submitbtn{
+	font-size:18px;
+	padding:10px 20px;
+	margin-bottom:10px;
+	color:#000;
+	background-color:#4cea21;
+	border: 1px solid #000;
+}
+
+#resetbtn{
+	padding:10px 10px;
+	margin-bottom:10px;
+	color:#000;
+	background-color:#ec0b0b;
+	border:none;
+}
+
+/* menu page */
+
+.menucontainer{
+	display:block;
+}
+
+.menucontainer img{
+	width:100%;
+}
