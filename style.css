@@ -54,8 +54,12 @@ img{
 	text-align:center;
 }
 
-.subheading{
+.subheading, .subsubheading{
 	font-family:'Dancing Script', cursive;
+}
+
+.subsubheading{
+	text-align:left;
 }
 
 .maincontainer{
@@ -140,6 +144,20 @@ a .buttonalternate:hover{
 	color:#000;
 }
 
+.moredetails{
+	text-align:left;
+	margin-top:10px;
+	padding:10px;
+	border-top:1px solid #fff;
+}
+
+.coursedate{
+		font-size:18px;
+		color:#ec0b0b;
+		margin-top:5px;
+}
+
+
 footer{
 	font-size:10px;
 	text-align:center;
@@ -164,7 +182,7 @@ iframe{
 /* contact page */
 
 form{
-	border: 2px solid #fff;
+	border: 1px solid #fff;
 	padding:10px;
 	border-radius:2px;
 	margin-bottom:10px;
@@ -188,7 +206,7 @@ select{
 	padding:10px 20px;
 	margin-bottom:10px;
 	color:#000;
-	background-color:#4cea21;
+	background-color:#fff;
 	border: 1px solid #000;
 }
 
@@ -202,10 +220,58 @@ select{
 
 /* menu page */
 
-.menucontainer{
-	display:block;
+.contentshortcuts{
+	text-align:center;
 }
 
-.menucontainer img{
-	width:100%;
+.contentshortcuts ul{
+	display:flex;
+	flex-direction:row;
+}
+
+.contentshortcuts ul{
+	list-style:none;
+}
+
+.contentshortcuts li{
+	padding:8px;
+	
+}
+
+.contentshortcuts li a{
+	text-decoration:none;
+}
+
+.contentshortcuts li a:hover, .contentshortcuts li a:active{
+	color:#ec0b0b;
+}
+
+
+.menucontainer{
+	padding:10px;
+	border:1px solid #fff;
+}
+
+.dish{
+	margin-bottom:50px;
+}
+
+.dish-name{
+	font-size:18px;
+	border-bottom: 1px solid #fff;
+}
+
+.dish-price{
+	float:right;
+	margin-top:-18px;
+}
+
+.dish-description{
+	font-size:12px;
+	font-style:italic;
+}
+
+.menunote{
+	font-size:12px;
+	font-style:italic;
 }
